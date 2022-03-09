@@ -1,0 +1,19 @@
+`timescale 1ns/1ns
+
+module full_subtractor(
+	input a, input b, input c,
+	output diff, output borr
+	);
+
+	wire a_xor_b_xor_c, not_a, a_bar_b, b_c, a_bar_c, a_bar_b__b_c__a_bar_c;
+
+	xor(a_xor_b_xor_c, a, b, c);
+	not(not_a, a);
+	and(a_bar_b, not_a, b);
+	and(b_c, b, c);
+	and(a_bar_c, not_a, c);
+	or(a_bar_b__b_c__a_bar_c, a_bar_b, b_c, a_bar_c);
+
+	assign diff =  a_xor_b_xor_c;
+	assign borr = 	a_bar_b__b_c__a_bar_c;
+endmodule

@@ -1,0 +1,50 @@
+{D:/FPGA Embedded Design/alu/four_bit_adder.v} {1 {vlog -work work -stats=none {D:\FPGA Embedded Design\alu\four_bit_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module four_bit_adder
+
+Top level modules:
+	four_bit_adder
+
+} {} {}} {D:/FPGA Embedded Design/alu/half_adder.v} {1 {vlog -work work -stats=none {D:/FPGA Embedded Design/alu/half_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} {D:/FPGA Embedded Design/alu/full_adder.v} {1 {vlog -work work -stats=none {D:/FPGA Embedded Design/alu/full_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} {D:/FPGA Embedded Design/alu/four_bit_subtractor.v} {1 {vlog -work work -stats=none {D:\FPGA Embedded Design\alu\four_bit_subtractor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module four_bit_subtractor
+
+Top level modules:
+	four_bit_subtractor
+
+} {} {}} {D:/FPGA Embedded Design/alu/full_subtractor.v} {1 {vlog -work work -stats=none {D:\FPGA Embedded Design\alu\full_subtractor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_subtractor
+
+Top level modules:
+	full_subtractor
+
+} {} {}} {D:/FPGA Embedded Design/alu/half_subtractor.v} {1 {vlog -work work -stats=none {D:/FPGA Embedded Design/alu/half_subtractor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module half_subtractor
+
+Top level modules:
+	half_subtractor
+
+} {} {}} {D:/FPGA Embedded Design/alu/four_bit_subtractor_tb.v} {1 {vlog -work work -stats=none {D:\FPGA Embedded Design\alu\four_bit_subtractor_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module four_bit_subtractor_tb
+
+Top level modules:
+	four_bit_subtractor_tb
+
+} {} {}}

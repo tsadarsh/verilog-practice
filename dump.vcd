@@ -1,0 +1,52 @@
+$date
+	Fri Mar 04 08:45:38 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	100ps
+$end
+
+$scope module majority_TB $end
+$var reg 1 ! in1 $end
+$var reg 1 " in2 $end
+$var reg 1 # in3 $end
+$var reg 1 $ in4 $end
+$var reg 1 % in5 $end
+$var wire 1 & my_out $end
+$var wire 1 ' my_z $end
+$var wire 1 ' my_z $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+x$
+x%
+0&
+1'
+$end
+#100
+1#
+#200
+0#
+1"
+#300
+1#
+1&
+#400
+0#
+0"
+1!
+0&
+#500
+1#
+1&
+#600
+0#
+1"
+#700
+1#

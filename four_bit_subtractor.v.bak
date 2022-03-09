@@ -1,0 +1,16 @@
+`timescale 1ns/1ns
+
+module four_bit_subtractor(
+	output wire [4:0] c,
+	input wire [3:0] a,
+	input wire [3:0] b
+	);
+
+	wire [3:0] borr;
+
+	full_subtractor fs0 (c[0], borr[0], a[0], b[0], 0);
+	full_subtractor fs1 (c[1], borr[1], a[1], b[1], borr[1]);
+	full_subtractor fs2 (c[2], borr[2], a[2], b[2], borr[2]);
+	full_subtractor fs3 (c[3], borr[3], a[3], b[3], borr[3]);
+	assign c[4] = borr[3];
+endmodule 

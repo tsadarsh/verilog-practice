@@ -1,0 +1,15 @@
+{D:/FPGA Embedded Design/work/assignment-tb.v} {0 {vcom -work work -2002 -explicit -stats=none {D:/FPGA Embedded Design/work/assignment-tb.v}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+** Error: D:/FPGA Embedded Design/work/assignment-tb.v(1): near "timescale": tool directive not supported
+** Warning: D:/FPGA Embedded Design/work/assignment-tb.v(1): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: D:/FPGA Embedded Design/work/assignment-tb.v(1): VHDL Compiler exiting
+
+} {4.0 5.0 6.0 7.0} {}} {D:/FPGA Embedded Design/assignment-des.v} {0 {vcom -work work -2002 -explicit -stats=none {D:/FPGA Embedded Design/assignment-des.v}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+** Error: D:/FPGA Embedded Design/assignment-des.v(2): near "timescale": tool directive not supported
+** Warning: D:/FPGA Embedded Design/assignment-des.v(2): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Error: D:/FPGA Embedded Design/assignment-des.v(2): VHDL Compiler exiting
+
+} {4.0 5.0 6.0 7.0} {}}

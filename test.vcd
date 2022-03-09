@@ -1,0 +1,54 @@
+$date
+	Tue Mar 08 00:09:12 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ns
+$end
+
+$scope module four_bit_subtractor_tb $end
+$var reg 4 ! a [3:0] $end
+$var reg 4 " b [3:0] $end
+$var wire 1 # c [4] $end
+$var wire 1 $ c [3] $end
+$var wire 1 % c [2] $end
+$var wire 1 & c [1] $end
+$var wire 1 ' c [0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 !
+b0 "
+1'
+0&
+0%
+0$
+0#
+$end
+#10
+b11 !
+b1 "
+0'
+1&
+#20
+b11 "
+0&
+#30
+b111 !
+1%
+#40
+b111 "
+0%
+#50
+b1111 !
+1$
+#60
+b1111 "
+0$
+#80
+b0 !
+b1 "
+1'
